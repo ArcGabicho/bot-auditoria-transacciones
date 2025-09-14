@@ -1,5 +1,7 @@
 # 🔍 Bot de Auditoría Interna de Transacciones
 
+![Portada](https://i.pinimg.com/736x/7a/b1/73/7ab173a65cc849e2f0205a04ad4ed974.jpg)
+
 **Sistema automatizado en C++ para auditorías internas financieras.**  
 Diseñado para facilitar el análisis de transacciones, detección de anomalías y generación de reportes en organizaciones que buscan optimizar su transparencia y control financiero.
 
@@ -16,45 +18,6 @@ Diseñado para facilitar el análisis de transacciones, detección de anomalías
 
 ---
 
-## 🏢 Casos de uso
-
-- Auditorías internas periódicas en empresas
-- Departamentos de finanzas y contabilidad
-- Firmas de auditoría y consultoría
-- Control y verificación de movimientos en sistemas financieros
-
----
-
-## 🖥️ Requisitos del sistema
-
-- **Sistema operativo:** Windows, Linux o macOS
-- **Compilador:** C++17 o superior
-- **Hardware mínimo recomendado:**
-    - CPU: 2.0 GHz
-    - RAM: 2 GB
-    - Disco: 50 MB libres
-
----
-
-## ⚙️ Instalación y uso
-
-### 🧰 Compilación
-
-#### Windows:
-```bash
-g++ -std=c++17 -o auditor_bot main.cpp
-```
-
-```bash
-.\auditor_bot.exe
-```
-
-## ▶️ Ejecución
-
-Al ejecutar el programa, accederás al menú principal con opciones para analizar, revisar y auditar las transacciones del sistema.
-
----
-
 ## 🧪 Flujo de uso típico
 
 1. Seleccione "Analizar historial de transacciones"
@@ -65,51 +28,6 @@ Al ejecutar el programa, accederás al menú principal con opciones para analiza
 
 ---
 
-## 📁 Estructura del proyecto
-
-```bash
-auditoria-bot/
-├── include/
-│   ├── auditoria.h
-│   ├── transacciones.h
-│   ├── analizador.h
-│   └── utils.h
-├── src/
-│   ├── auditoria.cpp
-│   ├── transacciones.cpp
-│   ├── analizador.cpp
-│   └── utils.cpp
-├── data/
-│   └── transacciones.csv
-├── reportes/
-│   └── [PDF y CSV generados]
-├── config/
-│   └── auditor_rules.json
-├── main.cpp
-├── LICENSE
-└── README.md
-```
-
----
-
-## 🔐 Seguridad
-
-- Validación de estructura y lógica de las transacciones
-
-- Registro de logs internos de auditoría
-
-- Soporte para cifrado básico de archivos (opcional)
-
----
-
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo los términos de la [MIT License](LICENSE).
-
----
-
-## 👤 Autor
-
-**Gabriel Polack**  
-Consultor TI & Arquitecto de Software – BlackMount Corporation E.I.R.L  
-🌐 Especialista en cloud computing, desarrollo full stack y soluciones empresariales

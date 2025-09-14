@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / IntelliJ
+.idea/
+
+# Compilados
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.so
+*.dylib
+
+# CMake / build
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# Copilot snapshots
+CopilotSnapshots/
